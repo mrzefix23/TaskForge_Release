@@ -222,3 +222,94 @@
 ### Tâches associées
 - [ ] T25.1 : Développer le tableau récapitulatif (3)
 - [ ] T25.2 : Implémenter la logique d’affichage du tableau récapitulatif (2)
+
+---
+### 8. Gestion visuelle des projets
+
+#### US26 — (Priorité : Haute) (Poids : 5)  
+_En tant qu’utilisateur, je souhaite visualiser mes user stories et tâches sous forme de tableau Kanban (colonnes “À faire”, “En cours”, “Terminé”) afin d’avoir une vue claire de l’avancement du projet._
+
+- [ ] **T26.1** : Concevoir la structure de données du tableau Kanban (1)  
+- [ ] **T26.2** : Développer le composant d’affichage du tableau (2)  
+- [ ] **T26.3** : Implémenter les colonnes dynamiques par statut (1)  
+- [ ] **T26.4** : Relier le tableau à la base de données (1)
+
+---
+
+#### US27 — (Priorité : Haute) (Poids : 4)  
+_En tant qu’utilisateur, je souhaite pouvoir déplacer une tâche ou une user story entre les colonnes afin de changer son statut facilement._
+
+- [ ] **T27.1** : Implémenter le drag & drop des éléments (2)  
+- [ ] **T27.2** : Mettre à jour le statut en base de données après déplacement (1)  
+- [ ] **T27.3** : Gérer les transitions autorisées (1)
+
+---
+
+#### US28 — (Priorité : Moyenne) (Poids : 3)  
+_En tant qu’utilisateur, je souhaite filtrer le tableau Kanban par sprint ou priorité afin de me concentrer sur un sous-ensemble de tâches._
+
+- [ ] **T28.1** : Développer le menu de filtrage (1)  
+- [ ] **T28.2** : Implémenter la logique de filtrage côté client (1)  
+- [ ] **T28.3** : Relier le filtrage aux données du projet (1)
+
+---
+
+#### US29 — (Priorité : Moyenne) (Poids : 2)  
+_En tant qu’utilisateur, je souhaite pouvoir changer le nom et la couleur des colonnes afin d’adapter le tableau à mon workflow._
+
+- [ ] **T29.1** : Développer le formulaire d’édition de colonne (1)  
+- [ ] **T29.2** : Sauvegarder les préférences du tableau en base de données (1)
+
+---
+
+#### US30 — (Priorité : Moyenne) (Poids : 2)  
+_En tant qu’utilisateur, je souhaite pouvoir créer une nouvelle colonne personnalisée dans mon tableau Kanban afin d’ajuster la structure de suivi._
+
+- [ ] **T30.1** : Développer la fonctionnalité d’ajout de colonne (1)  
+- [ ] **T30.2** : Implémenter la persistance du tableau personnalisé (1)
+
+---
+
+#### US31 — (Priorité : Haute) (Poids : 3)  
+_En tant qu’utilisateur, je souhaite afficher les détails d’une tâche ou user story en cliquant dessus, afin de voir la description, l’assigné, les commentaires et la date limite._
+
+- [ ] **T31.1** : Développer la fenêtre modale de détails (1)  
+- [ ] **T31.2** : Relier les données à la tâche / user story (1)  
+- [ ] **T31.3** : Implémenter la modification rapide depuis la modale (1)
+
+---
+
+#### US32 — (Priorité : Moyenne) (Poids : 2)  
+_En tant qu’utilisateur, je souhaite changer la couleur ou le label d’une tâche selon sa priorité afin de visualiser rapidement les urgences._
+
+- [ ] **T32.1** : Implémenter un code couleur selon la priorité (1)  
+- [ ] **T32.2** : Ajouter une légende visuelle des priorités (1)
+
+---
+
+#### US33 — (Priorité : Basse) (Poids : 3)  
+_En tant qu’utilisateur, je souhaite pouvoir sauvegarder la position de mes cartes et ma vue Kanban personnalisée (tri, filtres, colonnes) afin de la retrouver à ma prochaine connexion._
+
+- [ ] **T33.1** : Sauvegarder les préférences utilisateur (1)  
+- [ ] **T33.2** : Charger la configuration à la connexion (1)  
+- [ ] **T33.3** : Implémenter la mise à jour automatique de la vue (1)
+
+---
+
+#### US34 — (Priorité : Moyenne) (Poids : 3)  
+_En tant qu’utilisateur, je souhaite visualiser les statistiques du tableau (tâches terminées, en cours, retardées) afin de suivre la progression du sprint._
+
+- [ ] **T34.1** : Créer un module de calcul des statistiques (1)  
+- [ ] **T34.2** : Développer l’affichage des stats (graphique ou résumé) (1)  
+- [ ] **T34.3** : Relier les stats au tableau en temps réel (1)
+
+---
+
+#### US35 — (Priorité : Haute) (Poids : 3)  
+_En tant qu’administrateur de projet, je souhaite gérer les droits d’accès au tableau (lecture seule, édition) afin de contrôler la collaboration._
+
+- [ ] **T35.1** : Définir les rôles et permissions sur le board (1)  
+- [ ] **T35.2** : Implémenter les restrictions d’action selon le rôle (1)  
+- [ ] **T35.3** : Gérer les erreurs d’accès ou messages d’information (1)
+
+---
