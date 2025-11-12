@@ -255,7 +255,7 @@ _En tant qu’utilisateur, je souhaite filtrer le tableau Kanban par sprint ou p
 ---
 
 #### US29 — (Priorité : Moyenne) (Poids : 2)  
-_En tant qu’utilisateur, je souhaite pouvoir changer le nom et la couleur des colonnes afin d’adapter le tableau à mon workflow._
+_En tant qu’utilisateur, je souhaite pouvoir changer le nom des colonnes afin d’adapter le tableau à mon workflow._
 
 - [ ] **T29.1** : Développer le formulaire d’édition de colonne (1)  
 - [ ] **T29.2** : Sauvegarder les préférences du tableau en base de données (1)
