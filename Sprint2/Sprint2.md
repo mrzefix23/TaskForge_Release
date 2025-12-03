@@ -6,7 +6,7 @@
 - Implémenter la gestion de projets : création, modification, suppression des tâches/users stories.
 - Mettre en place les tests unitaires pour les fonctionnalités développées.
 
-## Livrables du sprint 1
+## Livrables du sprint 2
 - Interface utilisateur pour la gestion des projets.
 - Messages d’erreurs améliorés et correctement affichés.
 - Fonctionnalités de gestion des projets opérationnelles.
